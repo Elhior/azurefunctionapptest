@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Magick.NET-Q16-AnyCPU/7.5.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net40/Magick.NET-Q16-AnyCPU.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Magick.NET-Q16-AnyCPU.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Magick.NET-Q16-x64.Native.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.NET-Q16-x64.Native.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win7-x64/native/Magick.NET-Q16-x64.Native.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/Magick.NET-Q16-x86.Native.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Magick.NET-Q16-AnyCPU/7.5.0.1": {
+      "sha512": "pKfpds5qz47isGKcZtAeCFy0OM3ZwlUjW/wkK7CS/6VyT8rdDGTGdIoC24LbLPcvdJFDF8qByVOjpKUme49DKg==",
+      "type": "package",
+      "path": "magick.net-q16-anycpu/7.5.0.1",
+      "files": [
+        "Copyright.txt",
+        "Readme.txt",
+        "lib/net20/Magick.NET-Q16-AnyCPU.dll",
+        "lib/net20/Magick.NET-Q16-AnyCPU.xml",
+        "lib/net40/Magick.NET-Q16-AnyCPU.dll",
+        "lib/net40/Magick.NET-Q16-AnyCPU.xml",
+        "lib/netstandard13/Magick.NET-Q16-AnyCPU.dll",
+        "lib/netstandard13/Magick.NET-Q16-AnyCPU.xml",
+        "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll",
+        "lib/netstandard20/Magick.NET-Q16-AnyCPU.xml",
+        "magick.net-q16-anycpu.7.5.0.1.nupkg.sha512",
+        "magick.net-q16-anycpu.nuspec",
+        "runtimes/linux-x64/native/Magick.NET-Q16-x64.Native.dll.so",
+        "runtimes/osx-x64/native/Magick.NET-Q16-x64.Native.dll.dylib",
+        "runtimes/win7-x64/native/Magick.NET-Q16-x64.Native.dll",
+        "runtimes/win7-x86/native/Magick.NET-Q16-x86.Native.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "Magick.NET-Q16-AnyCPU >= 7.5.0.1"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}

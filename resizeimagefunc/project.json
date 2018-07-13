@@ -1,0 +1,9 @@
+{
+"frameworks": {
+  "net46":{
+    "dependencies": {
+      "Magick.NET-Q16-AnyCPU": "7.5.0.1"
+    }
+  }
+ }
+}
